@@ -98,53 +98,74 @@ header {
 
 }
 .statistics {
-
-    margin: 0 auto;
-    width: 100%;
-    height: 531px;
-}
-.statistics-title {
-    font-size: 36px;
-    font-family: var(--font-relaway);
     margin-top: 100px;
-    text-align: center;
+
 }
 .statistics-container {
     display: flex;
     justify-content: space-between;
+    margin: 100px auto 120px;
+    max-width: 800px;
+
+}
+
+h2 {
+    font-size: 36px;
+    font-family: var(--font-relaway);
+    text-align: center;
+}
+
+.statistics-column {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    font-family: var(--font-relaway);
 
 }
-.column {
 
-
-}
 .column-circle-1 {
     border-radius: 50%;
     background-color: var(--color-redish);
+    width: 62px;
     height: 62px;
+    position: relative;
+    top: 0;
+    left: 45%;
+    justify-content: center;
 
 }
 .column-circle-2 {
     border-radius: 50%;
     background-color: var(--color-primary);
+    width: 62px;
     height: 62px;
+    position: relative;
+    top: 15px;
+    left: 45%;
 }
 .column-circle-3 {
     border-radius: 50%;
     background-color: var(--color-green);
+    width: 62px;
     height: 62px;
+    position: relative;
+    top: 6px;
+    left: 50%;
 
 }
+.column-img {
+    position: absolute;
+}
 .statistics-numbers {
-    font-family: var(--font-relaway);
     font-size: 20px;
     font-weight: 900;
     letter-spacing: 6px;
+    margin-top: 13px;
 }
 .statistics-text {
     color: var(--color-grey);
-    font-size: 17px;
-    font-family: var(--font-relaway);
-
+    margin-top: 19px;
 }
