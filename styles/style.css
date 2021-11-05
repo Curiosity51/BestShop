@@ -61,3 +61,39 @@ header {
 .menu__item:last-child {
     padding-right: 0;
 }
+.opening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opening-content {
+    margin-top: 130px;
+    text-align: center;
+}
+.opening-title {
+    font-size: 49px;
+    font-family: var(--font-relaway);
+
+}
+.opening-text {
+    font-family: var(--font-openSans);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+.opening-background {
+    width: 100%;
+    height: auto;
+}
+.opening-button {
+    text-decoration: none;
+    font-family: var(--font-openSans);
+    font-weight: 700;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    padding: 22px 157px;
+    display: inline-block;
+    box-shadow: 3px 10px 14px #07ACE629;
+
+}
