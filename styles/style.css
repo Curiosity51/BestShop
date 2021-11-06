@@ -174,23 +174,33 @@ h2 {
     padding-top: 105px;
 }
 .benefits-container {
-    width: 1124px;
+    max-width: 1124px;
+    height: 1395px;
 
 }
-.benefits-box-1 {
+.benefits-box {
     height: 370px;
     display: flex;
     background-color: var(--color-white);
     border: 1px solid #E8E9ED;
     justify-content: space-between;
+    margin-bottom: 37px;
 
 }
 .benefits-article {
     width: 416px;
     height: 188px;
-    margin: 91px 0 35px 91px;
-    border-bottom: 3px solid var(--color-redish);
+    margin: 91px 20px 91px 35px;
+
 }
+.benefits-article:after {
+    content: "";
+    width: 330px;
+    height:5px;
+    border-bottom: 3px solid var(--color-redish);
+    display: block;
+}
+
 .benefits-header {
     text-align: left;
 }
@@ -198,6 +208,7 @@ h2 {
     font-family: var(--font-openSans);
     margin-top: 30px;
     margin-bottom: 50px;
+    line-height: 22px;
 }
 .benefits-media {
     width: 433px;
@@ -225,4 +236,87 @@ h2 {
     bottom:calc(77px + 71px);
     left: calc(798px + 71px);
 
+}
+
+.benefits-img-2 {
+    width: 426px;
+    height: 328px;
+    position: absolute;
+    z-index: 2;
+
+}
+.benefits-media-2 {
+    width: 426px;
+    height: 345px;
+    margin-left: 70px;
+    margin-top: 29px;
+
+
+}
+
+.benefits-shape-2 {
+    width: 320px;
+    height: 320px;
+    background-color: #07ACE6;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.article-2 {
+     height: 230px;
+     margin: 69px 20px 71px 192px;
+
+ }
+.article-2:after {
+    content: "";
+    width: 330px;
+    height: 5px;
+    border-bottom: 3px solid var(--color-primary);
+    display: block;
+}
+
+.benefits-double {
+    display: flex;
+
+}
+
+.benefits-box.box-3 {
+    max-width: 623px;
+
+
+
+
+
+}
+.article-3 {
+    width: 554px;
+    height: 230px;
+    margin: 69px 35px 70px 35px;
+}
+.article-3:after {
+    content: "";
+    width: 330px;
+    height: 5px;
+    border-bottom: 3px solid var(--color-green);
+    display: block;
+}
+
+.benefits-media-3 {
+    width: 440px;
+    height: 370px;
+    border-radius: 5px;
+    background-color: var(--color-green);
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+
+
+}
+.benefits-img-3 {
+    width: 295px;
+    height: auto;
+    margin-top: 55px;
 }
