@@ -21,11 +21,11 @@ function compileSass(done) {
 
 function watcher(done) {
     browserSync.init({
-        server: "./" + entryPath,
+        server: "./",
     });
 
-    gulp.watch(entryPath + "/scss/**/*.scss", gulp.series(compileSass, reload));
-    gulp.watch(entryPath + "/*.html", gulp.series(reload));
+    gulp.watch("./styles/scss/**/*.scss", gulp.series(compileSass, reload));
+    gulp.watch("./*.html", gulp.series(reload));
 
     done();
 }
